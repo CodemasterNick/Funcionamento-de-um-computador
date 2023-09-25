@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+
+.Fonte {
+    display:flex;
+    justify-content: center ;
+    color: white;
+    font-size: 40px;
+    margin-right: 10px;
+    margin-top: 130px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botão {
+    display: flex;
+    margin-left: 564px;
+    margin-top: 20px;
+    height: 230px;
+}

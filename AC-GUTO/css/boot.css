@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(9, 9, 240);
+}
+
+.CMOS {
+    color: white;
+    margin-left: 438px;
+    font-size: 18px;
+}
+
+.separador {
+    width: 1364px; 
+    margin-top: 1px;  
+}
+
+.separador2 {
+    width: 1364px;
+    margin-top: 10px;
+}
+
+.separador3 {
+    display: flex;
+    float: left;
+    margin-left: 680px;
+    height: 321px;
+    margin-top: -311px;
+    position: absolute;
+        
+}
+
+.setupesquerda {  
+    color: white;
+    margin-left: 25px;
+    margin-top: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.setupdireita {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -370px;
+    margin-right: 310px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    
+}
+
+.separador4 {
+    display: flex;
+    justify-content: center;
+    width: 1364px;
+    margin-top: 7px;
+}
+
+.Teclas-Especiais {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.Teclas-Centrais{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+    color: white;
+}
+
+.Teclas-direita {
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   flex-direction: column;
+   margin-top: -50px;
+    color: white;
+}
+
+
+
+.tela-de-boot {
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.quadrado-de-carregamento {
+    width: 50px; 
+    height: 50px; 
+    background-color: #007bff;
+    margin: 20px auto;
+    animation: girar 2s linear infinite; 
+    display: block; 
+}
+
+.botao-carregamento-concluido {
+    display: none;
+    border-radius: 10px solid blue;
+    margin-top: 10px;
+    
+        
+    
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+button:hover {
+    background-color: white;
+    transform: scale(1.5);
+    transition: all 0.5s;
+    border-radius: 8px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.carregando{
+    color: white;
+}
